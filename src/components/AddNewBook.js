@@ -1,23 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
 
 /*
  * Stateless functional component 'AddNewBook'.
  */
-const AddNewBook = (props) => {    
+const AddNewBook = () => {    
     return (
         <div className='open-search'>
                <Link to={{
-                   pathname:'/search',
-                   state: {
-                       booksFromHomepage: props.currentBooks
-                       }}}/>
+                   pathname:'/search'}}/>
         </div>
     )
 }
 
-AddNewBook.PropTypes = {
-    currentBooks:PropTypes.array.isRequired
-}
 export default AddNewBook

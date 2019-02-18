@@ -3,7 +3,9 @@ import * as BooksAPI from '../DataProvider/BooksAPI'
 import SingleShelf from './SingleShelf'
 import AddNewBook from './AddNewBook'
 
-// State full component 'HomePage'.
+/*
+ * State full component 'HomePage'. This page will display three categories (books I have read, books I want to read, books I am reading).
+ */ 
 class HomePage extends Component {
     state = {
         books: []
