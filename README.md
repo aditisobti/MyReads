@@ -8,7 +8,7 @@
 ## Instructions
 Open Git bash window on your terminal.
 
-Git clone https://github.com/aditisobti/[Project Name].git
+Git clone https://github.com/aditisobti/MyReads.git
 
 Go to the folder where the code is downloaded on the terminal.
 
